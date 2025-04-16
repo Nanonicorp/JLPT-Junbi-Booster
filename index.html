@@ -62,6 +62,7 @@
       gap: 30px;
       margin-top: 30px;
       max-width: 900px;
+      margin-bottom: 40px; /* Menambahkan space antara profil mentor dan tombol daftar */
     }
 
     .card {
@@ -87,6 +88,13 @@
       font-size: 0.9em;
       margin: 5px 0;
     }
+
+    @media screen and (min-width: 768px) {
+      .card-container {
+        flex-direction: row; /* Menjaga card tetap dalam satu baris di desktop */
+      }
+    }
+
   </style>
 </head>
 <body>
